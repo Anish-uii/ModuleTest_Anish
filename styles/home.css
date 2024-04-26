@@ -1,0 +1,123 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 26px;
+}
+.navbar .logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar nav a {
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 20px;
+}
+header .navbar #logout-btn{
+  color: red;
+  background-color: #ddd;
+  border-radius: 8px;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.stocks {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.stocks h2 {
+  margin-bottom: 20px;
+}
+
+.stocks-table {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.stocks-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stocks-table th, .stocks-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.stocks-table th {
+  background-color: #f2f2f2;
+}
+
+.stocks-table td {
+  text-align: left;
+}
+
+a.button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+a.button:hover {
+  background-color: #0056b3;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+}
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
+}
+table .delete-btn:hover{
+  cursor: pointer;
+}
